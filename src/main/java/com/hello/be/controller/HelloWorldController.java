@@ -11,7 +11,6 @@ import java.util.HashMap;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin
 public class HelloWorldController {
 
 	@GetMapping("/")
