@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 
 @RestController
-@RequestMapping("/api")
+//@RequestMapping("/api")
 @CrossOrigin
 public class HelloWorldController {
 
-	@GetMapping("/hello")
+	@GetMapping("/")
 	public ResponseEntity<Object> index() {
 		HashMap<String, String> map = new HashMap<>();
 		map.put("message", "hello world");
